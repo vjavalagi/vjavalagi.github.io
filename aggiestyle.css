@@ -4,7 +4,7 @@ body {
     background-color: rgb(95, 20, 20);
     background: rgb(232, 226, 212);    
     background-size: cover;
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', monospace;
     margin-top: 100px;
     padding: 50px;
 
@@ -14,7 +14,7 @@ main {
 }
 h1{
     color: #500000;
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', monospace;
     font-display: bold;
     text-align: center;
 }
@@ -23,6 +23,9 @@ h3 {
     font-display: bold;
     font-size: larger;
     font-family: 'Courier New', monospace;
+    
+}
+p {
     
 }
 /* Navigation Bar */
@@ -53,7 +56,7 @@ header * {
 
 }
 header li {
-    margin: 60px;
+    margin: 130px;
     
 }
 header li a {
@@ -85,8 +88,9 @@ p.landing {
 
 /* Qualifications Page */
 p.resume{
-    float:center;   
-}
+    float:center;  
+    margin-right: auto; 
+}   
 h3.qualifications{
     color: #4c4a4cdf;
     font-display: bold;
@@ -98,7 +102,7 @@ section.qualifications {
     background-color:  rgba(136, 99, 99, 0.72);
     border-style: double;
     border-width: 6px;
-    margin-left: 670px;
+ 
     border-radius: 10px;
     padding: 10px;
     
@@ -135,7 +139,7 @@ h3.techskills{
 section.techskills {
     background: rgb(80,0,0);
     border-radius: 10px;
-    background: radial-gradient(circle, rgb(226, 181, 157) 0%, rgba(80, 0, 0, 0.686) 78%);    
+    background-color: #500000a8;    
     margin-left: 25%;
     
     padding: 10px;
