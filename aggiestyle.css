@@ -1,0 +1,155 @@
+
+body {
+    height: 125vh;
+    background-color: rgb(95, 20, 20);
+    background: rgb(232, 226, 212);    
+    background-size: cover;
+    font-family: 'Courier New', monospace;
+    margin-top: 100px;
+    padding: 50px;
+
+}
+main {
+    color: rgb(85, 87, 85);
+}
+h1{
+    color: #500000;
+    font-family: 'Courier New', monospace;
+    font-display: bold;
+    text-align: center;
+}
+h3 {
+    color: rgb(20, 49, 94);
+    font-display: bold;
+    font-size: larger;
+    font-family: 'Courier New', monospace;
+    
+}
+/* Navigation Bar */
+header img {
+    height: 100px;
+    
+}
+header {
+    background: #500000; 
+    border-style: groove;
+    border-width: 20px;
+    border-color: rgb(211, 202, 180);
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+    font-family: 'Courier New', monospace;
+
+}
+header li {
+    margin: 60px;
+    
+}
+header li a {
+    color: white;
+    text-decoration: none;
+    
+}
+/* Index Page  */
+.Headshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 300px;
+    border-radius: 15%;
+    border-style: dotted;
+    border-color: #500000;
+    border-width: 3px;
+}
+p.landing {
+    float: right;
+    background-color: #500000a8;
+    text-align: left;
+    padding: 30px; 
+
+    font-size: larger;
+    color: beige;
+}
+
+/* Qualifications Page */
+p.resume{
+    float:center;   
+}
+h3.qualifications{
+    color: #4c4a4cdf;
+    font-display: bold;
+    
+    margin-right: auto;
+}
+section.qualifications {
+    
+    background-color:  rgba(136, 99, 99, 0.72);
+    border-style: double;
+    border-width: 6px;
+    margin-left: 670px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+section.qualifications * {
+    color: #500000; 
+}
+/* Service Page */
+img.servicepics {
+    max-width: 500px;
+    max-height:333px;
+    float: right;
+    margin:  15px 15px 15px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #500000;
+
+}
+div.servicetext{
+    font-size: 15px;
+    padding-left: 20px;
+    text-align: left;
+}
+div.allservice {
+    align-items: center;
+    justify-content: center;
+}
+/* Technical Page */
+h3.techskills{
+    color: #4c4a4cdf;
+    font-display: bold;
+    margin-left: 40px;
+}
+section.techskills {
+    background: rgb(80,0,0);
+    border-radius: 10px;
+    background: radial-gradient(circle, rgb(226, 181, 157) 0%, rgba(80, 0, 0, 0.686) 78%);    
+    margin-left: 25%;
+    
+    padding: 10px;
+}
+section.techskills * {
+    color: rgb(249, 249, 242); 
+    font-weight: bold;
+}
+img.techskills {
+    float: left;
+
+    max-width: 250px;
+    max-height:200px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border-radius: 20%;
+}

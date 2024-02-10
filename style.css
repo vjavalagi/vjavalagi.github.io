@@ -1,0 +1,129 @@
+
+body {
+    height: 125vh;
+    background-color: #eaf6fe;
+    background-size: cover;
+    font-family:  Garamond;
+    margin-top: 100px;
+    padding: 30px;
+
+}
+main {
+    color: rgb(61, 63, 61);
+}
+h1{
+    color: rgb(20, 49, 94);
+    font-display: bold;
+}
+h3 {
+    color: rgb(20, 49, 94);
+    font-display: bold;
+    font-size: larger;
+    
+}
+/* Navigation Bar */
+header img {
+    height: 100px;
+}
+header {
+    background: radial-gradient(circle, #eaf6fe 0%, #78b1f7 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+header li {
+    margin: 80px;
+    
+}
+header li a {
+    color: rgb(20, 49, 94);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+/* Landing Page */
+.Headshot{
+    display: block;
+    margin-left: auto;
+    margin-right: 20%;
+    width: 300px;
+    height: 450px
+}
+p.landing {
+    background-color: #debddb;
+    text-align: center;
+    padding: 10px; 
+    border-radius: 10px;
+    font-size: larger;
+}
+/* Qualifications */
+p.resume{
+    display: block;
+    margin-left: 375px;
+    margin-right: auto;
+}
+h3.qualifications{
+    color: #4c4a4cdf;
+    font-display: bold;
+    margin-left: 40px;
+}
+section.qualifications {
+    background-color:  #78b1f782;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+section.qualifications * {
+    color: rgb(20, 49, 94); 
+}
+/* Service */
+img.servicepics {
+    max-width: 600px;
+    max-height:400px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+div.servicetext{
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+div.allservice {
+    align-items: center;
+    justify-content: center;
+}
+/* Projects */
+h3.techskills{
+    color: #4c4a4cdf;
+    font-display: bold;
+    margin-left: 40px;
+}
+section.techskills {
+    background-color:  #debddb93;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+section.techskills * {
+    color: rgb(20, 49, 94); 
+}
+img.techskills {
+    display: block;
+    max-width: 300px;
+    max-height:300px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 20px;
+}

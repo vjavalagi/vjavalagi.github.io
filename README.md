@@ -1,2 +1,1 @@
-# vjavalagi.github.io
-My personal website!
+# CSCE_315_Javalagi
