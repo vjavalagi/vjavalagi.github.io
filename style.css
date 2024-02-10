@@ -1,7 +1,7 @@
 
 body {
     height: 125vh;
-    background-color: #eaf6fe;
+    background-color:  rgb(10, 38, 79);
     background-size: cover;
     font-family:  Garamond;
     margin-top: 100px;
@@ -9,24 +9,43 @@ body {
 
 }
 main {
-    color: rgb(61, 63, 61);
+    color: whitesmoke;
 }
 h1{
-    color: rgb(20, 49, 94);
+    color: whitesmoke;
     font-display: bold;
 }
 h3 {
-    color: rgb(20, 49, 94);
+    color: whitesmoke;
     font-display: bold;
     font-size: larger;
     
 }
+a:link {
+    color: rgb(187, 216, 227);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  
+  
+  a:hover {
+    color: rgb(255, 225, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 /* Navigation Bar */
 header img {
     height: 100px;
 }
 header {
-    background: radial-gradient(circle, #eaf6fe 0%, #78b1f7 100%);
+    background:  rgb(34, 102, 206) ;
     position: fixed;
     top: 0;
     left: 0;
@@ -46,7 +65,7 @@ header li {
     
 }
 header li a {
-    color: rgb(20, 49, 94);
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
     font-size: large;
@@ -60,7 +79,7 @@ header li a {
     height: 450px
 }
 p.landing {
-    background-color: #debddb;
+    background-color: #305db1;
     text-align: center;
     padding: 10px; 
     border-radius: 10px;
@@ -73,7 +92,7 @@ p.resume{
     margin-right: auto;
 }
 h3.qualifications{
-    color: #4c4a4cdf;
+    color: whitesmoke;
     font-display: bold;
     margin-left: 40px;
 }
@@ -97,6 +116,7 @@ img.servicepics {
 div.servicetext{
     font-size: 20px;
     padding-left: 20px;
+    color: whitesmoke;
     
 }
 div.allservice {
@@ -110,7 +130,7 @@ h3.techskills{
     margin-left: 40px;
 }
 section.techskills {
-    background-color:  #debddb93;
+    background-color:  whitesmoke;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
