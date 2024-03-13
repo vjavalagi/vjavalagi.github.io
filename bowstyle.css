@@ -136,6 +136,7 @@ h3.qualifications{
 }
 section.qualifications {
     background-color:  rgba(225, 119, 207, 0.663);
+    color: whitesmoke; 
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
