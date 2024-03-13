@@ -2,10 +2,10 @@
 function toggleStyleSheet(){
     var style = document.getElementById("mainStyleSheet");
     var selectedStyleSheet = style.getAttribute("href")
-    if (style.getAttribute("href") == "aggiestyle.css") {
+    if (style.getAttribute("href") == "lighttheme.css") {
         style.setAttribute("href", "style.css");
     } else {
-        style.setAttribute("href", "aggiestyle.css");
+        style.setAttribute("href", "lighttheme.css");
     }
     localStorage.setItem('selectedStyleSheet', style.getAttribute("href")); // save updated in the selected local var 
 
