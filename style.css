@@ -149,22 +149,41 @@ section.qualifications ul {
     text-align: center;
 }
 /* Service */
-img.servicepics {
-    max-width: 600px;
-    max-height:400px;
-    float: left;
-    margin: 0 15px 0 0;
+.allservice {
+    display: flex; 
+    align-items: center; 
+    justify-content: start; 
 }
-div.servicetext{
-    font-size: 20px;
-    padding-left: 20px;
+
+.servicetext {
+    width: 50%; 
     color: whitesmoke;
-    
 }
-div.allservice {
-    align-items: center;
-    justify-content: center;
+
+img.servicepics {
+    width: 320px;
+    float: left;
+    margin-right: 20px
 }
+
+
+.service-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Adds some space between the image and the text */
+    margin-bottom: 20px; /* Optional: adds some space between each service section */
+}
+
+.servicepics {
+    max-width: 50%; /* Adjust based on your preference */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.servicetext {
+    flex: 1; /* Allows the text div to fill up the remaining space */
+}
+
+
 /* Projects */
 h3.techskills{
     color: #4c4a4cdf;
