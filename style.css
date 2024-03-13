@@ -129,7 +129,7 @@ p.landing {
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Optional: Centers content vertically if needed */
 }
-h3.qualifications{
+h2.qualifications{
     color: whitesmoke;
     font-display: bold;
     margin-left: 40px;
@@ -144,7 +144,7 @@ section.qualifications {
 section.qualifications * {
     color: whitesmoke(20, 49, 94); 
 }
-section.qualifications ul {
+section.qualifications p {
     color: whitesmoke;
     text-align: center;
 }
@@ -185,7 +185,7 @@ img.servicepics {
 
 
 /* Projects */
-h3.techskills{
+h2.techskills{
     color: #4c4a4cdf;
     font-display: bold;
     margin-left: 40px;
