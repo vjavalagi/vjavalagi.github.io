@@ -1,0 +1,231 @@
+
+body {
+    height: 125vh;
+    background-color:  rgb(234, 166, 225);
+    background-size: cover;
+    font-family: monospace;
+    margin-top: 100px;
+    padding: 30px;
+
+}
+main {
+    /* This ensures the text part takes up the needed space but can shrink if needed */
+    flex: 1;
+    max-width: 600px; /* Adjust this value based on your content and design preference */
+    padding-right: 20px; /* Adds some space between the text and the image */
+    color: whitesmoke;
+
+}
+h1{
+    color: whitesmoke;
+    font-display: bold;
+}
+h3 {
+    color: whitesmoke;
+    font-display: bold;
+    font-size: larger;
+    
+}
+a:link {
+    color: rgb(187, 216, 227);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+/* Navigation Bar */
+header img {
+    height: 100px;
+}
+header li a:hover {
+    color: rgb(255, 225, 0);
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration: underline; /* Adds the underline back only for nav bar links */
+}
+/* nav bar */
+header {
+    background: rgb(225, 119, 208);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Align items horizontally center */
+    align-items: center; /* Align items vertically center */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex; /* Use flexbox for the nav */
+    justify-content: center; /* Center flex items on the main axis */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    display: flex; /* Display list items inline using flexbox */
+    align-items: center; /* Center items vertically */
+    margin: 0; /* Remove default margin */
+}
+
+nav li {
+    margin: 0 20px; /* Adjust spacing around list items */
+}
+
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+/* um check if i still need this css */
+header * {
+    display: inline;
+}
+header li {
+    margin: 80px;
+    
+}
+header li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+.Headshot {
+    /* Adjust the width and height as necessary, but maintain aspect ratio */
+    height: 420px;
+    border-radius: 50%;
+
+    flex: 0 1 auto; /* This prevents the image from shrinking below its size */
+}
+p.landing {
+    text-align: left;
+    padding: 10px; 
+    border-radius: 10px;
+    margin-right: 20%;
+    font-size: larger;
+}
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* This ensures that the container will try to fit its content within the viewport width */
+    flex-wrap: wrap;
+}
+/* Resume */
+.resume{
+    /* display: block;
+    margin-left: 375px;
+    margin-right: auto; */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Optional: Centers content vertically if needed */
+}
+h3.qualifications{
+    color: whitesmoke;
+    font-display: bold;
+    margin-left: 40px;
+}
+section.qualifications {
+    background-color:  rgba(225, 119, 207, 0.663);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+section.qualifications * {
+    color: whitesmoke(20, 49, 94); 
+}
+section.qualifications ul {
+    color: whitesmoke;
+    text-align: center;
+}
+/* Service */
+.allservice {
+    display: flex; 
+    align-items: center; 
+    justify-content: start; 
+}
+
+.servicetext {
+    width: 50%; 
+    color: whitesmoke;
+}
+
+img.servicepics {
+    width: 320px;
+    float: left;
+    margin-right: 20px
+}
+
+
+.service-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Adds some space between the image and the text */
+    margin-bottom: 20px; /* Optional: adds some space between each service section */
+}
+
+.servicepics {
+    max-width: 50%; /* Adjust based on your preference */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.servicetext {
+    flex: 1; /* Allows the text div to fill up the remaining space */
+}
+
+
+/* Projects */
+h3.techskills{
+    color: #4c4a4cdf;
+    font-display: bold;
+    margin-left: 40px;
+}
+section.techskills {
+    background-color:  whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+section.techskills * {
+    color: rgb(20, 49, 94); 
+}
+img.techskills {
+    display: block;
+    max-width: 300px;
+    max-height:300px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 20px;
+}
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(225, 119, 208);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
