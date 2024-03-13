@@ -3,13 +3,18 @@ body {
     height: 125vh;
     background-color:  rgb(10, 38, 79);
     background-size: cover;
-    font-family:  Garamond;
+    font-family: monospace;
     margin-top: 100px;
     padding: 30px;
 
 }
 main {
+    /* This ensures the text part takes up the needed space but can shrink if needed */
+    flex: 1;
+    max-width: 600px; /* Adjust this value based on your content and design preference */
+    padding-right: 20px; /* Adds some space between the text and the image */
     color: whitesmoke;
+
 }
 h1{
     color: whitesmoke;
@@ -70,20 +75,25 @@ header li a {
     font-weight: bold;
     font-size: large;
 }
-/* Landing Page */
-.Headshot{
-    display: block;
-    margin-left: auto;
-    margin-right: 20%;
+.Headshot {
+    /* Adjust the width and height as necessary, but maintain aspect ratio */
     width: 300px;
-    height: 450px
+    height: 450px;
+    flex: 0 1 auto; /* This prevents the image from shrinking below its size */
 }
 p.landing {
-    background-color: #305db1;
-    text-align: center;
+    text-align: left;
     padding: 10px; 
     border-radius: 10px;
+    margin-right: 50%;
     font-size: larger;
+}
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* This ensures that the container will try to fit its content within the viewport width */
+    flex-wrap: wrap;
 }
 /* Qualifications */
 p.resume{
