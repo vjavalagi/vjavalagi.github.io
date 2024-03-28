@@ -137,6 +137,7 @@ h2.qualifications{
 section.qualifications {
     background-color:  rgba(225, 119, 207, 0.663);
     color: whitesmoke; 
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -148,6 +149,23 @@ section.qualifications * {
 section.qualifications p {
     color: whitesmoke;
     text-align: center;
+}
+section.qualifications li{
+    margin-top: 5px;
+}
+.qualifications img {
+    width: 30px; /* Adjust the width as needed */
+    margin-left: 10px;
+    height: auto; /* Set height to auto to maintain the aspect ratio */
+}
+
+img.technical{
+    width: 500px;
+    float: right;
+    margin-right: 20px
+}
+section.qualifications a{
+    width: 30px;
 }
 /* Service */
 .allservice {
