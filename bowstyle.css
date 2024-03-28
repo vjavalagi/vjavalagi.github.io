@@ -5,7 +5,7 @@ body {
     background-size: cover;
     font-family: monospace;
     margin-top: 100px;
-    padding: 30px;
+    padding-bottom: 80px;
 
 }
 main {
@@ -39,7 +39,7 @@ a:link {
   }
 /* Navigation Bar */
 header img {
-    height: 100px;
+    height: 15%;
 }
 header li a:hover {
     color: rgb(255, 225, 0);
@@ -54,7 +54,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: center; /* Align items horizontally center */
     align-items: center; /* Align items vertically center */
@@ -236,7 +236,7 @@ img.techskills {
     background-color: rgb(225, 119, 208);
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px ;
 }
 
 .footer a {
