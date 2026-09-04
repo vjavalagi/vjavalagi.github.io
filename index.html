@@ -2,7 +2,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home</title>
+        <meta name="color-scheme" content="light dark">
+        <title>Veda Javalagi</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
         <link
             id="mainStyleSheet"
             rel="stylesheet"
@@ -11,55 +15,141 @@
         ></link>
     </head>
     <body>
-        <!-- Navigation Bar : easy traversal  -->
-        <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">🏠</a>
-                    </li>
-                    <li>
-                        <a href="CampusInvolvement.html">Involvement</a>
-                    </li>
-                    
-                    <li>
-                        <a href="Technical.html">Technical Skills</a>
-                    </li>
-                    <li>
-                        <a onclick="toggleStyleSheet()" type="button">🎀</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Intro Message:  -->
-        <h1>
-            Howdy! I'm
-            <b>Veda Javalagi 👋</b>
-        </h1>
-        <br>
-        <br>
-        <!-- Headshot -->
-        <div class="landing-container">
-            <main>
-                <p class="landing">
-                    Hello, I am currently a Senior at Texas A&M University pursuing a B.S. in Computer Science. 
-                </p>
-                <p class="landing">
-                    Want to learn more? Click through this website to discover more about me!
-                </p>
-            </main>
-            <img
-                class="Headshot"
-                src="images/Screenshot 2024-03-13 at 2.31.37 AM.png"
-                alt="Headshot of Veda Javalagi"
-            >
+        <div class="ticker">
+            <div class="ticker-track">
+                <span>?role_01 =&gt; software_engineer_I</span>
+                <span>?company =&gt; godaddy</span>
+                <span>?school =&gt; texas_a&amp;m_university</span>
+                <span>?project_01 =&gt; curie</span>
+                <span>?project_02 =&gt; festival_planner</span>
+                <span>?service_01 =&gt; hhyc_director</span>
+                <span>?service_02 =&gt; awics_president</span>
+                <span>?status =&gt; open_to_interesting_problems</span>
+                <span>?role_01 =&gt; software_engineer_I</span>
+                <span>?company =&gt; godaddy</span>
+                <span>?school =&gt; texas_a&amp;m_university</span>
+                <span>?project_01 =&gt; curie</span>
+                <span>?project_02 =&gt; festival_planner</span>
+                <span>?service_01 =&gt; hhyc_director</span>
+                <span>?service_02 =&gt; awics_president</span>
+                <span>?status =&gt; open_to_interesting_problems</span>
+            </div>
         </div>
-        
+
+        <main>
+            <pre class="ascii-banner" aria-hidden="true">__   _____ ___   _        _  ___   ___   _      _   ___ ___
+\ \ / / __|   \ /_\    _ | |/_\ \ / /_\ | |    /_\ / __|_ _|
+ \ V /| _|| |) / _ \  | || / _ \ V / _ \| |__ / _ \ (_ || |
+  \_/ |___|___/_/ \_\  \__/_/ \_\_/_/ \_\____/_/ \_\___|___|</pre>
+            <p class="comment">/* @title&nbsp;&nbsp;&nbsp;Veda Javalagi */</p>
+            <p class="comment">/* @role&nbsp;&nbsp;&nbsp;&nbsp;Software Engineer I, GoDaddy &mdash; Texas A&amp;M CS &apos;25 */</p>
+
+            <div class="about">
+                <span class="kw">function</span> about() {<br>
+                &nbsp;&nbsp;<span class="kw">return</span> <span class="str">"Hi, I'm Veda! I'm a software engineer at GoDaddy (since Aug 2025), based in Houston, TX. I get to work on backend systems and data migrations for a large e-commerce platform, and I especially enjoy finding small ways to use LLMs to save my team time. I studied Computer Science at Texas A&amp;M ('25). Still learning every day &mdash; always glad to talk backend engineering, dev tooling, applied AI, or AI ethics. Feel free to reach out!"</span><br>
+                }
+            </div>
+
+            <p class="stat-line">time_in_role(<span class="str">"GoDaddy"</span>) == <span class="val" id="tenure">&mdash;</span></p>
+
+            <p class="label">EDUCATION:</p>
+            <div class="code-block">
+                <div class="row">educated_at(<span class="str">"Texas A&amp;M University"</span>)</div>
+                <div class="row"><span class="indent">.degree(<span class="str">"B.S. Computer Science, Emphasis in Psychology"</span>)</span></div>
+                <div class="row"><span class="indent">.gpa(<span class="str">3.9</span>).graduated(<span class="str">"May 2025"</span>)</span></div>
+            </div>
+
+            <p class="label">SKILLS:</p>
+            <div class="obj-block">
+                <p class="comment" style="margin:0 0 2px 0;">const SKILLS = {</p>
+                <p class="obj-row"><span class="obj-key">ai_ml</span>: [<span class="str">"OpenAI API"</span>, <span class="str">"LLM classification &amp; prompt engineering"</span>, <span class="str">"Google Document OCR"</span>, <span class="str">"Claude Code / Claude Skills"</span>],</p>
+                <p class="obj-row"><span class="obj-key">languages</span>: [<span class="str">"C++"</span>, <span class="str">"Python"</span>, <span class="str">"Java"</span>, <span class="str">"JavaScript"</span>, <span class="str">"TypeScript"</span>, <span class="str">"SQL"</span>, <span class="str">"Haskell"</span>],</p>
+                <p class="obj-row"><span class="obj-key">frameworks</span>: [<span class="str">"React"</span>, <span class="str">"Node.js"</span>, <span class="str">"REST APIs"</span>],</p>
+                <p class="obj-row"><span class="obj-key">cloud</span>: [<span class="str">"Azure (ADF, SDK, Storage Explorer)"</span>, <span class="str">"AWS"</span>],</p>
+                <p class="obj-row"><span class="obj-key">interests</span>: [<span class="str">"AI ethics &amp; responsible AI"</span>, <span class="str">"developer tooling"</span>]</p>
+                <p class="obj-close" style="margin:2px 0 0 0;">}</p>
+            </div>
+
+            <p class="label">WORK:</p>
+            <div class="code-block">
+                <div class="row">engineer(<span class="str">"backend + data migrations"</span>).at(<a href="https://www.godaddy.com" target="_blank" rel="noopener">GoDaddy</a>)</div>
+                <div class="row"><span class="indent">.role(<span class="str">"Software Engineer I, Scrum Master"</span>).since(<span class="str">"Aug 2025"</span>)</span></div>
+                <div class="row"><span class="indent">.owns(<span class="str">"backend development &amp; data migrations"</span>) <span class="comment-inline">// 20M+ customer e-commerce platform, 92% of active subscriptions migrated</span></span></div>
+                <div class="row"><span class="indent">.shipped(<span class="str">"LLM-powered Jira ticket classifier"</span>) <span class="comment-inline">// cut a 1,000-ticket manual process to under 2 minutes</span></span></div>
+                <div class="row"><span class="indent">.oncall(<span class="str">"production"</span>) <span class="comment-inline">// diagnoses live transaction-processing issues, keeps the bug backlog low</span></span></div>
+                <div class="blank"></div>
+                <div class="row">.interned(<a href="https://www.godaddy.com" target="_blank" rel="noopener">GoDaddy</a>).summer(<span class="str">2024</span>)</div>
+                <div class="row"><span class="indent">.shipped(<span class="str">"React monitoring suite"</span>) <span class="comment-inline">// turned hour-long on-call investigations into instant queries</span></span></div>
+                <div class="row"><span class="indent">.impact(<span class="str">"systems driving ~60% of company profit"</span>)</span></div>
+                <div class="row"><span class="indent">.extended(<span class="str">"backend REST APIs"</span>) <span class="comment-inline">// unified NoSQL + SQL data to catch import failures & anomalies</span></span></div>
+                <div class="blank"></div>
+                <div class="row">.interned(<span class="str">"Conga"</span>).summer(<span class="str">2023</span>)</div>
+                <div class="row"><span class="indent">.automated(<span class="str">"end-to-end nightly regression suite"</span>) <span class="comment-inline">// standardized pre-release testing on VM servers</span></span></div>
+                <div class="row"><span class="indent">.placed(<span class="str">"1st"</span>) <span class="comment-inline">// company-wide business case competition, $2,000 prize</span></span></div>
+            </div>
+
+            <p class="label">const PROJECTS = [</p>
+            <div class="arr-item">.<a href="https://github.com/vjavalagi/FestivalPlanner" target="_blank" rel="noopener">festival_planner</a>() <span class="comment-inline">// Next.js app matching festival lineups (Outside Lands, ACL, Portola) to a friend group's real Spotify listening history via OAuth</span></div>
+            <div class="arr-item">.<a href="https://github.com/vjavalagi/Curie" target="_blank" rel="noopener">curie</a>() <span class="comment-inline">// AI research assistant &mdash; OCR + LLM pipeline that summarizes papers and answers paper-specific questions, plus a citation library</span></div>
+            <div class="arr-item">.<a href="https://github.com/vjavalagi/SailajaMaheshFoundation" target="_blank" rel="noopener">sailaja_mahesh_foundation</a>() <span class="comment-inline">// React site built for a nonprofit foundation focused on health and education programs</span></div>
+            <div class="arr-item">.<a href="https://github.com/vjavalagi/accesible_extension" target="_blank" rel="noopener">accessible_reading_extension</a>() <span class="comment-inline">// Chrome extension that improves web readability for readers with dyslexia</span></div>
+            <div class="arr-item">.<a href="https://github.com/vjavalagi/spotify_extension" target="_blank" rel="noopener">spotify_playlist_generator</a>() <span class="comment-inline">// builds custom playlists from a listener's top artists, tracks, and genres (WIP)</span></div>
+            <div class="arr-item">.kung_fu_tea_pos() <span class="comment-inline">// Java/React ordering, menu management, and finance-tracking system processing 2,000+ records</span></div>
+            <p class="arr-close">]</p>
+
+            <p class="label">const INVOLVEMENT = [</p>
+            <div class="arr-item">.hhyc_director() <span class="comment-inline">// Hindu Heritage Youth Camp &mdash; lead a 450+ participant, 3-session summer camp; train 95+ volunteer counselors</span></div>
+            <div class="arr-item">.awics_president() <span class="comment-inline">// Aggie Women in Computer Science &mdash; led a 14-person team running workshops &amp; socials for 50+ members, started a Girls Who Code initiative</span></div>
+            <div class="arr-item">.peer_teacher() <span class="comment-inline">// Texas A&amp;M CS Dept &mdash; supported 30+ students each semester through office hours and debugging help</span></div>
+            <div class="arr-item">.rubies_mentor() <span class="comment-inline">// AWiCS Big-Little program &mdash; guiding incoming CS students through their first year</span></div>
+            <p class="arr-close">]</p>
+
+            <p class="label">OFF_THE_CLOCK:</p>
+            <div class="off-clock">
+                <div class="off-item">
+                    <pre class="ascii-icon" aria-hidden="true">      ) (
+     (   )
+      ) (
+   _______
+  |       |]
+  |       |
+   \_____/</pre>
+                    <p class="off-caption">coffee</p>
+                </div>
+                <div class="off-item">
+                    <pre class="ascii-icon" aria-hidden="true">    |   |
+  | |   |   |
+  | | | |   |
+| | | | | | |
+| | | | | | |</pre>
+                    <p class="off-caption">music</p>
+                </div>
+                <div class="off-item">
+                    <pre class="ascii-icon" aria-hidden="true"> .---------------.
+|  o         o   |
+|   ADMIT ONE    |
+|  o         o   |
+ '---------------'</pre>
+                    <p class="off-caption">concerts</p>
+                </div>
+            </div>
+
+            <p class="label">const CONTACT = [</p>
+            <div class="arr-item">.<a href="https://github.com/vjavalagi" target="_blank" rel="noopener">github</a>()</div>
+            <div class="arr-item">.<a href="https://www.linkedin.com/in/vedajavalagi" target="_blank" rel="noopener">linkedin</a>()</div>
+            <div class="arr-item">.<a href="mailto:vedajavalagi11@gmail.com">email</a>()</div>
+            <p class="arr-close">]</p>
+
+            <footer class="hint">// thanks for reading the source</footer>
+        </main>
+
+        <a class="cursor-link" href="https://github.com/vjavalagi" target="_blank" rel="noopener" aria-label="GitHub"><span class="blink">&#9642;</span></a>
+
+        <div class="hud" id="hud">
+            <div id="sysinfo">OS: &mdash;<br>Browser: &mdash;<br>Screen: &mdash;&times;&mdash;<br>Cookies: &mdash;</div>
+            <div class="coords">X: <span id="mx">0</span> &middot; Y: <span id="my">0</span></div>
+        </div>
+
         <script src="function.js"></script>
-        <footer class="footer">
-            <a href="https://github.com/vjavalagi" target="_blank">GitHub 💻</a>
-            <a href="https://www.linkedin.com/in/vedajavalagi" target="_blank">LinkedIn 💼</a>
-            <a href="mailto:vedajavalagi11@gmail.com">Email 📧 </a>
-        </footer>
     </body>
 </html>
